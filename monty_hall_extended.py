@@ -25,9 +25,9 @@ def reveal_goats(doors):
 	
 	return doors_with_goats
 
-number_of_doors = 10
-rounds = 100000
-switch_choice = True
+number_of_doors = 10 # change the number of doors to any door > 2
+rounds = 100000 # number of rounds you want to run the game
+switch_choice = True # wheter or not you want to switch doors after some goats are revealed
 
 current_round = 0
 rounds_won = 0
