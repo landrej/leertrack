@@ -11,7 +11,7 @@ class montyhall:
 		doors[random.randint(0,self.number_of_doors -1)] = 'prize' # pick a door to hide the prize
 		return doors
 
-	#def choose_door(self): # lol: de random functie van python is aardig niet random; met slechts 3 deuren is de uitkomst behoorlijk onder de 67% (+/- 5%)
+	#def choose_door(self): # lol: de random functie van python is aardig niet random; met, bijvoorbeeld, 3 deuren is de uitkomst behoorlijk onder de 67% (+/- 5%)
 	#	self.chosen_door = random.randint(0,self.number_of_doors)
 	#	return self.chosen_door
 	
