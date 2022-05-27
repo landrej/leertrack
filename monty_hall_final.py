@@ -1,6 +1,9 @@
 import random
 
 class montyhall:
+	won_the_game = False
+	opened_doors = None
+
 	def __init__(self,number_of_doors = 3,chosen_door = 0):
 		self.number_of_doors = number_of_doors
 		self.doors = self.initialize_doors()
@@ -35,8 +38,6 @@ class montyhall:
 	def jackpot(self):
 		if self.doors[self.chosen_door] == 'prize': # jackpot
 			self.won_the_game = True
-		else:
-			self.won_the_game = False
 		return self.won_the_game
 
 def run_the_game(number_of_doors,number_of_rounds):
